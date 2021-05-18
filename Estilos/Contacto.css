@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.encabezado_contacto{ 
+	background-image: url("../Imagenes/Contacto/encabezado_contacto.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	padding: 5%;
+	color: white;
+	}
+
+.formulario{
+	font-size: 15px;
+	padding: 5% 20% 5% 20%;
+	text-align: left;
+}
+
+img{
+	padding-right: 10px;
+}
+
+input{
+	border-radius: 5px;
+	width: auto;
+	border-color: #92BE21;
+	border-style: solid;
+}
+
+input:hover{
+	background-color: #E9F9C0;
+}
+
+input:focus{
+	border-color: #0078E3;
+}
+
+input:checked ~ .check {
+    background-color: #2489C5;
+    border:none;
+}
+
+button{
+	border-style: none;
+	width: 80px;
+    background-color: #92BE21;
+	
+}

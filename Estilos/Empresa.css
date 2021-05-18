@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.encabezado_empresa{ 
+	background-image: url("../Imagenes/Empresa/encabezado_empresa.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	padding: 5%;
+	color: white;
+}
+
+
+.tipoEmpresa,.talentoHumano{
+	padding: 5% 20% 5% 20%;
+	box-shadow: 0px 4px 5px 2px rgba(0,0,0,0.20);
+	text-align: justify;
+}
+
+h3{
+	text-align: center;
+}
+
+h4, h5{
+	text-align: left;
+}

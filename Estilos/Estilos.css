@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: 'Gothic A1', sans-serif;
+}
+
+.menu{
+	 font-weight: Bold;	
+}
+
+.logo {
+	width: 50%;
+}
+
+h1{
+	text-align: center;
+	font-weight:900;
+}
+
+h2{
+	font-weight:bold;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+h4{
+	text-align: center;
+	font-size: 12px;
+}
+
+h5{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+h5{
+	font-weight: bold;
+}
+
+footer{
+	background-image: url("../Imagenes/Footer/Fondo.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	padding: 2%;
+}
+
+footer .datos{
+	color:white;
+	
+}
+
+footer .redes{
+	background-color: rgba(255,255,255,0.50);
+	padding: 6px;
+}
+
+footer .derechos{
+	color: white;
+}

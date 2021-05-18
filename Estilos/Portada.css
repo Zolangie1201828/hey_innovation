@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+.portada{
+	background-image: url("../Imagenes/Portada/Fondo.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size:cover;
+	padding: 50px;
+}
+
+.portada .col-6{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+}
+
+.portada p{
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+	margin: 50px;
+}
+
+.informacion{
+	margin: 5% 20% 5% 20%;
+}
+
+.informacion p{
+	text-align: center;
+	font-weight: 400;
+	font-size: 15pt;
+}
+
+.separacion{
+	background-image: url("../Imagenes/Generales/Separador.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 11px;
+	width: 100%;
+}
+
+.tipos_servicios {
+margin: 5% 15% 5% 15%;
+}
+
+.tipos_servicios .row .col-3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tipos_servicios img{
+
+}
+
+#btn1{
+background-color: white;
+  color: black;
+	border: 0px;
+  border-bottom: 4px solid #f0922a; /* Naranja */
+}
+
+#btn2{
+background-color: white;
+  color: black;
+	border: 0px;
+  border-bottom: 4px solid #e94d4b; /* Rojo */
+}
+
+
+#btn3{
+background-color: white;
+  color: black;
+	border: 0px;
+  border-bottom: 4px solid #5e67ad; /* Azul */
+}
+
+#btn4{
+background-color: white;
+  color: black;
+	border: 0px;
+  border-bottom: 4px solid #69b04c; /* Verde */
+}
+
